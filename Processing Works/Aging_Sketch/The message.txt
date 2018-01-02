@@ -1,0 +1,3 @@
+This is a processing sketch, inspired by how our life's change while we age,
+
+When we grow up (when we first run the program) everything is random and colorful and interesting, but as time progresses we get bonded by certain rules and restricted by social norms that makes life turn into a perfectly constructed loop with a slight change from time to time.
