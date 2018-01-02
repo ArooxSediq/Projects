@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title></title>
+
+  <link rel="stylesheet" href="css/Custom_Style.css" >
+  <link rel="stylesheet" href="css/bootstrap.min.css" >
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+</head>
+<body>
+
+
+
+<nav class="navbar navbar-light bg-light" >
+    <a class="navbar-brand" href="index.php">
+      <img src="img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+      Galleria
+    </a>
+    
+   <ul class="nav justify-content-center">
+
+    <li class="nav-item">
+      <a class="nav-link active" href="index.php">Home</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-link active" href="signup.html">Sign Up</a>
+    </li>
+
+
+  </ul>
+</nav>
+
+<div class="container" style="margin-left: 25%; margin-top: 50px; width: 50%;">
+
+  <h3>Sign in</h3>
+
+        <form style="padding: 25px;" method="POST" action="signin.php">
+
+          <div class="form-row">
+
+            <div class="form-group col-md-6">
+              <label for="inputEmail">Email</label>
+              <input type="email" class="form-control" id="inputEmail" name="email" placeholder="Email" required>
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputPassword">Password</label>
+              <input type="password" class="form-control" id="inputPassword" name="password" placeholder="Password" required>
+            </div>
+
+        </div>
+       
+        <button type="submit" class="btn btn-primary">Sign in</button>
+      </form>
+
+
+</div>
+
+
+
+</body>
+</html>
