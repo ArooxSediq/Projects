@@ -1,0 +1,226 @@
+@import url(https://fonts.googleapis.com/earlyaccess/amiri.css);
+@import url(https://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+@import url(https://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
+@import url(https://fonts.googleapis.com/earlyaccess/lateef.css); 
+@import url(https://fonts.googleapis.com/earlyaccess/scheherazade.css);
+@import url(https://fonts.googleapis.com/earlyaccess/thabit.css);
+
+
+h3{
+  background:#222;
+  color:#f9f9f9;
+   padding:5px;
+}
+
+.amiri{font-family: 'Amiri', serif;}
+.droid-arabic-kufi{font-family: 'Droid Arabic Kufi', serif;}
+.droid-arabic-naskh{font-family: 'Droid Arabic Naskh', serif;}
+.lateef{font-family: 'Lateef', serif;}
+.scheherazade{font-family: 'Scheherazade', serif;}
+.thabit{font-family: 'Thabit', serif;}
+
+
+
+header {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+#player{
+  cursor:pointer;
+}
+.carousel-item{
+  height: 30vw;
+}
+
+.googlebtn{
+   
+    background-image: url('../img/g-unpressed.png');
+}
+
+.googlebtn :hover{
+    background-image: url('../img/g-pressed.png');
+}
+
+#StylishText{
+font-family: "Times New Roman", Times, serif;
+font-style: italic;
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.navtext {
+     /*font-size:12pt;*/
+     /*margin-left:25pt;*/
+     color:white;
+    }
+
+.freq {
+            font-size:20pt;
+	    	font-weight: bold;
+		}
+		
+#bottomNav text{
+    font-size:12pt;
+    color:white;
+    text-decoration:none;
+    font-weight: bold;
+    
+    }
+
+@media only screen and (max-width: 600px) {
+    .navtext {
+     font-size:12pt;
+    }
+    
+
+    
+    .freq{
+        font-size:10pt;
+    }
+}
+
+.container {
+  max-width: 960px;
+}
+
+/*
+ * Custom translucent site header
+ */
+
+.site-header {
+  background-color: rgba(0, 0, 0, .85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+ 
+}
+.site-header a {
+
+  color: white;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-decoration:none;
+}
+
+/*
+ * Dummy devices (replace them with your own or something else entirely!)
+ */
+
+.product-device {
+  position: absolute;
+  right: 10%;
+  bottom: -30%;
+  width: 300px;
+  height: 540px;
+  background-color: #333;
+  border-radius: 21px;
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+
+.product-device::before {
+  position: absolute;
+  top: 10%;
+  right: 10px;
+  bottom: 10%;
+  left: 10px;
+  content: "";
+  background-color: rgba(255, 255, 255, .1);
+  border-radius: 5px;
+}
+
+.product-device-2 {
+  top: -25%;
+  right: auto;
+  bottom: 0;
+  left: 5%;
+  background-color: #e5e5e5;
+}
+
+
+/*
+ * Extra utilities
+ */
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+
+.overflow-hidden { overflow: hidden; }
+
+
+
+html,
+body {
+  height: 100%;
+  overflow-x: hidden;
+
+}
+
+
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+
+/* Set the fixed height of the footer here */
+
+
+
+.navbar-header {
+    float:none;
+    width:100%;
+    padding:10px;
+}
+.navbar-brand {
+    font-size:20pt;
+    float:none;
+}
+#bottomNav {
+    padding:10px;
+  background: #ee0979; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #17a2b8 , #145252); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #145252 , #17a2b8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
