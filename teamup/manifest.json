@@ -1,0 +1,17 @@
+{
+
+  "name": "Team Up",
+  "short_name": "Team Up",
+  "start_url": "/",
+  "theme_color": "#17a2b8!",
+   "scope": "/",
+    "display": "standalone",
+  "background_color": "#111111",
+  "icons": [
+    {
+      "src": "img/logo.png",
+      "sizes": "325x190",
+      "type": "image/png"
+    }
+  ]
+}
